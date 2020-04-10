@@ -1,0 +1,78 @@
+<html>
+<head>
+  <title> Reach Us Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <center>
+    <h1 style="color:green">Reach Us Page</h1>
+    <style>
+    a:link{
+      color:white;
+
+    }
+    a:visited{
+      color: white;
+    }
+    a:active{
+      color: white;
+      background-color: white;
+    }
+    a:hover{
+      color: red;
+      background-color: green;
+    }
+  </style>
+
+    <div class="container-fluid">
+
+
+      <ul class="nav nav-pills nav-justified  bg-dark" >
+        <img src="{{pic11}}" class="rounded" width="100" height="40">
+        <li class="nav-item">
+     <a class="nav-link"href="/">Home Page</a>
+      </li>
+       <li class="nav-item">
+    <a  class="nav-link" href="/about11">About page</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/contect">Contect Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"  href="/reach">Reach Us</a>
+  </li></ul>
+
+  </div>
+  <img src="{{pic7}}" class="rounded" width="350" height="250">
+    <table class="table">
+      <tr>
+
+      <th class="table-warning">Name:</th>
+      <th class="table-warning">Details:</th>
+    </tr>
+      <tr>
+        <th class="table-danger">Mobile Number:</th>
+        <td class="table-danger">{{Mobile}}</td>
+      </tr>
+
+      <tr>
+        <th class="table-warning">Email Id:</th>
+        <td class="table-warning">{{Email}}</td>
+      </tr>
+      <tr>
+        <th class="table-info">Address:</th>
+        <td class="table-info">{{Address}}</td>
+      </tr>
+
+    </table>
+
+
+  {{> footer}}
+</body>
+</html>
